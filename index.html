@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Doce Predileto</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="main">
+        <div class="center">
+            <div class="menu">
+                <div class="logo-menu">
+                    <a href="/index.html"><img src="Logo correto.png" alt="Logo da empresa"></a>
+                </div><!--logo-menu-->
+                <div class="itens-menu">
+                    <a href="#nós">Sobre nós</a>
+                    <a href="#produtos">Produtos</a>
+                    <a href="#venda">Vendas</a>
+                    <a class="pedido"  href="https://wa.me/5527999792510?text=Olá,%20gostaria%20de%20fazer%20um%20pedido!"
+                    >Faça seu pedido</a>
+
+                    
+
+                </div><!--itens-menu-->
+            </div><!--menu-->
+
+        </div><!--center-->
+
+    </section><!--main-->
+
+    <section id="nós" class="page1">
+        <div class="center">
+       
+    
+           
+            
+            <div class="titulo">
+                <h1>Quem somos nós?</h1>
+            </div><!--titulo-->
+            <div class="paragrafo">
+                <p> Somos uma equipe de estudantes universitários, unidos pelo desafio emocionante proposto pelo processo seletivo da empresa "CT Júnior". Com o objetivo de alcançar um lucro significativo em apenas 10 dias, nós, da "Meu Doce Predileto", aceitamos o desafio com entusiasmo e compromisso.
+                    <br> Com a determinação de alcançar nosso objetivo financeiro em um prazo tão curto, mergulhamos de cabeça no planejamento estratégico, na produção eficiente e na comercialização inteligente dos nossos produtos. Cada doce foi cuidadosamente elaborado com o propósito de encantar os paladares e conquistar os corações dos nossos clientes, ao mesmo tempo que contribuímos para o sucesso do desafio proposto.
+                    <br> Então, junte-se a nós nesta emocionante jornada. Explore nossos sabores, participe da nossa história e seja parte do nosso sucesso. Estamos prontos para enfrentar qualquer desafio que surja no caminho e estamos ansiosos para compartilhar essa experiência única com você.</p>
+
+            </div><!--paragrafo-->
+            <div class="imagem-page1">
+                <img src="Logo correto.png" alt="">
+
+            </div><!--imagem-page1-->
+
+     
+        </div>
+    </section><!--page-1-->
+
+    <section id="produtos" class="page2">
+        <div class="center">
+            <div class="titulo-page2">
+                <h1>CONHEÇA NOSSOS PRODUTOS</h1>
+            </div><!--titulo-page2-->
+            <div class="paragrafo2">
+                <p>Experimente nossos deliciosos doces feitos com muito carinho para você!</p>
+        </div><!--paragrafo2-->
+        <div class="container-box">
+            <div class="img-box">
+                <img src="brigadeiro.jpg" alt="">
+            </div><!--img-box-->
+            <div class="txt-box">
+                <p>Brigadeiro</p>
+
+            </div><!--txt-box-->
+
+        </div><!--container-box-->
+        <div class="container-box">
+            <div class="img-box">
+                <img src="Alfajor.jpg" alt="">
+            </div><!--img-box-->
+            <div class="txt-box">
+                <p>Alfajor</p>
+
+            </div><!--txt-box-->
+
+        </div><!--container-box-->
+        <div class="container-box">
+            <div class="img-box">
+                <img src="palha-italiana.jpg" alt="">
+            </div><!--img-box-->
+            <div class="txt-box">
+                <p>Palha Italiana</p>
+
+            </div><!--txt-box-->
+
+        </div><!--container-box-->
+          
+          
+
+        </div><!--center-->
+
+    </section><!--page2-->
+
+    <section id="venda" class="page3">
+        <div class="center">
+           
+            <div class="titulopag3">
+                <h1>Locais de venda e entrega</h1>
+
+            </div><!--titulopag3-->
+
+            <div class="par1pag3">
+                <p>Estamos vendendo nossos produtos pela UFES por encomenda ou podendo ser encontrados no:</p>
+                <br>
+                <ul>
+                    <li>DADF (Diretório Acadêmico Dido Fontes)</li>
+                    <li>Sala do CAI no CT-9</li>
+                    <li>Saída do RU em horário de almoço e jantar</li>
+                </ul>
+
+            </div><!--par1pag3-->
+            <div class="par2pag3">
+                <p>Também trabalhamos com entregas no bairro de Jardim Camburi e regiões próximas</p>
+               
+
+            </div><!--par2pag3-->
+            
+            <a class="pecaja" href="https://wa.me/5527999792510?text=Olá,%20gostaria%20de%20fazer%20um%20pedido!">Peça já!</a>
+           
+
+        </div><!--center-->
+
+    </section><!--page3-->
+
+    <footer class="final">
+        <div class="center">
+            <div class="textos">
+                <span class="span1">Todos os direitos reservados </span>
+                <span class="span2">Instagram: @meudocepredileto</span>
+            </div>
+        </div>
+
+
+    </footer>
+    
+    
+</body>
+<script>
+    // Rolar suavemente para a seção correspondente ao clicar nos links do menu de navegação
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+</script>
+</html>
